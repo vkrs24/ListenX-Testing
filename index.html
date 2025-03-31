@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListenX - Music Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎵 ListenX - Search & Play Music</h1>
+        <input type="text" onchange="searchSong()" id="searchInput" placeholder="Enter song name...">
+        <button onclick="searchSong()">🔍 Search</button>
+
+        <div id="results"></div>
+
+        <audio id="audioPlayer" controls hidden></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
